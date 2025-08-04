@@ -1,13 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Medical Assistant Chatbot</title>
+  <meta charset="UTF-8" />
+  <title>Medical Assistant Chatbot</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+    }
+    a.button {
+      padding: 20px 40px;
+      background: #4caf50;
+      color: white;
+      text-decoration: none;
+      font-size: 24px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    a.button:hover {
+      background: #45a049;
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to the Medical Assistant Chatbot!</h1>
-    <p>Try the chatbot below:</p>
-
-    <iframe src="https://huggingface.co/spaces/dragos-bajenaru37/Medical_Assistant" width="100%" height="600px" frameborder="0"></iframe>
-
+  <a class="button" href="https://huggingface.co/spaces/dragos-bajenaru37/Medical_Assistant" target="_blank" rel="noopener noreferrer">
+    Open the Medical Assistant Chatbot
+  </a>
 </body>
 </html>
